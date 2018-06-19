@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:pipelineEntry xmlns:con="http://www.bea.com/wli/sb/pipeline/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config" xmlns:con2="http://www.bea.com/wli/sb/stages/config" xmlns:con3="http://www.bea.com/wli/sb/stages/routing/config" xmlns:con4="http://www.bea.com/wli/sb/stages/publish/config" xmlns:con5="http://www.bea.com/wli/sb/typesystem/config" xmlns:con6="http://www.bea.com/wli/sb/stages/logging/config">
+<con:pipelineEntry xmlns:con="http://www.bea.com/wli/sb/pipeline/config" 				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con1="http://www.bea.com/wli/sb/stages/transform/config" xmlns:con2="http://www.bea.com/wli/sb/stages/config" 				xmlns:con3="http://www.bea.com/wli/sb/stages/routing/config" xmlns:con4="http://www.bea.com/wli/sb/stages/publish/config" 				xmlns:con5="http://www.bea.com/wli/sb/typesystem/config" xmlns:con6="http://www.bea.com/wli/sb/stages/logging/config">
     <con:coreEntry>
         <con:binding type="SOAP" isSoap12="false" xsi:type="con:SoapBindingType">
             <con:wsdl ref="Credit/Core/ActivateCard/ActivateCard_v1_0_DOM/Resources/WSDL/ActivateCard_DOM"/>
             <con:binding>
                 <con:name>ActiveCardBinding</con:name>
-                <con:namespace>http://ws.nex<uschile.cl/Credit/ActivateCard/v1.0</con:namespace>
+
+<!--- Un comentario de una sola línea -->               			<con:namespace>http://ws.nexuschile.cl/Credit/ActivateCard/v1.0</con:namespace>
             </con:binding>
         </con:binding>
         <con:xqConfiguration>
