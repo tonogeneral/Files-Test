@@ -5,7 +5,7 @@
             <con:wsdl ref="Credit/Core/ActivateCard/ActivateCard_v1_0_DOM/Resources/WSDL/ActivateCard_DOM"/>
             <con:binding>
                 <con:name>ActiveCardBinding</con:name>
-                <con:namespace>http://ws.nex<uschile.cl/Credit/ActivateCard/v1.0</con:namespace>
+                <con:namespace>http://ws.nexuschile.cl/Credit/ActivateCard/v1.0</con:namespace>
             </con:binding>
         </con:binding>
         <con:xqConfiguration>
