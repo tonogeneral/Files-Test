@@ -1,4 +1,4 @@
-INSERT INTO MY_TABLE2  -- Noncompliant; N2 value omitted
+INSERT INTO MY_TABLE3  -- Noncompliant; N2 value omitted
   (
     N1
   )
